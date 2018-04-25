@@ -1,0 +1,16 @@
+{
+  "scriptFile" : "../AzFuncsJava1-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.jax.Function.hello",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "name" : "req",
+    "direction" : "in",
+    "authLevel" : "anonymous",
+    "methods" : [ "get", "post" ]
+  }, {
+    "type" : "http",
+    "name" : "$return",
+    "direction" : "out"
+  } ],
+  "disabled" : false
+}
